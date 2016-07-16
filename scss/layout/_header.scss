@@ -1,0 +1,104 @@
+.header-wrapper {
+    @include desktop {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.top-name {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+header {
+    background: $header-background;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+    @include desktop {
+        float: right;
+        display: inline-block;
+        width: auto;
+        margin-top: 40px;
+        margin-right: 23px;
+    }
+    h2 {
+        display: inline-block;
+        width: 90%;
+        padding: 10px 0;
+        text-align: center;
+        margin: 3px 0;
+        @include tablet {
+            background: none;
+        }
+        @include desktop {
+            margin: 0;
+            padding: 0;
+        }
+    }
+    ul {
+        padding: 0;
+        @include tablet {
+            display: inline-block;
+            margin: 0 20px;
+        }
+        @include desktop {
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+    }
+    li {
+        @include tablet {
+            display: inline-block;
+            margin: 0 20px;
+        }
+        @include desktop {
+            display: inline-block;
+        }
+    }
+}
+
+.profile-pic {
+    display: block;
+    width: 70%;
+    margin: auto;
+    @include tablet {
+        display: inline-block;
+        width: 30%;
+        float: right;
+        margin-right: 25px;
+        margin-bottom: 50px;
+    }
+    @include desktop {
+        margin-right: 35px;
+    }
+}
+
+.top-name {
+    @include desktop {
+        float: left;
+        margin: 20px 0 0 35px;
+    }
+}
+
+#intro-text {
+    text-align: center;
+    display: block;
+    padding: 30px 10px;
+    @include tablet {
+        text-align: left;
+        display: inline-block;
+        width: 60%;
+        float: left;
+        margin-left: 25px;
+        vertical-align: top;
+        margin-top: 0;
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,63 @@
+.footer-wrapper {
+    @include desktop {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+footer {
+    background: $footer-background;
+    text-align: center;
+}
+
+#b-name {
+    float: left;
+}
+
+#b-btt {
+    float: right;
+    @include tablet {
+        display: none;
+    }
+}
+
+.bottom {
+    margin: 0 auto;
+    width: 90%;
+    border-top: 2px solid $footer-background;
+}
+
+#bottom-nav {
+    display: none;
+    @include tablet {
+        display: inline-block;
+        float: right;
+    }
+    ul {
+        @include tablet {
+            list-style: none;
+            display: inline-block;
+        }
+        li {
+            @include tablet {
+                display: inline-block;
+                margin-left: 30px;
+            }
+        }
+    }
+}
+
+#contact {
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+
+#contact-message {
+    margin: 0 auto;
+    padding-bottom: 40px;
+    max-width: 480px;
+}
+
+#email {
+    padding-bottom: 60px;
+}

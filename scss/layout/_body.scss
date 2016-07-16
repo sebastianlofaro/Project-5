@@ -1,0 +1,36 @@
+.wrapper {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    section {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        @include tablet {
+            vertical-align: top;
+            display: inline-block;
+            width: 49%;
+            padding: 0 7px;
+            margin: 20px 0;
+            float: inherit;
+        }
+        @include desktop {
+            width: 32%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        img {
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+        }
+        p {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}
+
+#portfolio {
+    margin-top: 40px;
+}
