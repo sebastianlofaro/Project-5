@@ -1,14 +1,10 @@
 * {
     box-sizing: border-box;
-    font-family: 'Varela Round', sans-serif;
+    font-family: $primary-font;
     text-decoration: none;
 }
 
-.clearfix::after {
-    content: " ";
-    display: table;
-    clear: both;
-}
+
 
 ul {
     list-style: none;

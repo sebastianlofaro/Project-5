@@ -1,12 +1,12 @@
-* {
-  box-sizing: border-box;
-  font-family: 'Varela Round', sans-serif;
-  text-decoration: none; }
-
-.clearfix::after {
-  content: " ";
+.bottom:after, #top:after, #top .header-wrapper:after, #top .header-wrapper .header-wrapper-row:after {
+  content: "";
   display: table;
   clear: both; }
+
+* {
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+  text-decoration: none; }
 
 ul {
   list-style: none; }
@@ -99,7 +99,7 @@ footer {
   padding-bottom: 60px; }
 
 @media (min-width: 1024px) {
-  .header-wrapper {
+  #top .header-wrapper {
     max-width: 1200px;
     margin: 0 auto; } }
 

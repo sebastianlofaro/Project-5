@@ -22,6 +22,7 @@ footer {
 }
 
 .bottom {
+  @extend %clearfix;
     margin: 0 auto;
     width: 90%;
     border-top: 2px solid $footer-background;

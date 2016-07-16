@@ -1,8 +1,17 @@
-.header-wrapper {
-    @include desktop {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
+
+
+#top {
+  @extend %clearfix;
+  .header-wrapper {
+    @extend %clearfix;
+      @include desktop {
+          max-width: 1200px;
+          margin: 0 auto;
+      }
+      .header-wrapper-row {
+        @extend %clearfix;
+      }
+  }
 }
 
 .top-name {
