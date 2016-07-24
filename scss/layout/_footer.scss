@@ -8,10 +8,25 @@
 footer {
     background: $footer-background;
     text-align: center;
+    #contact {
+      font-size: $fs-section-title;
+      padding-top: 55px;
+      padding-bottom: 30px;
+    }
+    #contact-message {
+      font-size: $fs-closing-message;
+      margin: 0 auto;
+      padding-bottom: 40px;
+      max-width: 480px;
+    }
+    #phone, #email {
+      font-size: $fs-contact-info;
+    }
 }
 
 #b-name {
     float: left;
+    font-size: $fs-student-name-bottom;
 }
 
 #b-btt {
@@ -39,25 +54,18 @@ footer {
             list-style: none;
             display: inline-block;
         }
-        li {
-            @include tablet {
-                display: inline-block;
-                margin-left: 30px;
-            }
+    }
+    li {
+        @include tablet {
+            display: inline-block;
+            margin-left: 30px;
         }
     }
 }
 
-#contact {
-    padding-top: 55px;
-    padding-bottom: 30px;
-}
 
-#contact-message {
-    margin: 0 auto;
-    padding-bottom: 40px;
-    max-width: 480px;
-}
+
+
 
 #email {
     padding-bottom: 60px;

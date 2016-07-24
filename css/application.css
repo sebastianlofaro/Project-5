@@ -20,6 +20,12 @@ a:hover {
   text-align: center;
   width: 90%;
   margin: 0 auto; }
+  .wrapper #portfolio {
+    font-size: 1.5em; }
+  .wrapper h3 {
+    font-size: 1.17em; }
+  .wrapper p {
+    font-size: 1em; }
   .wrapper section {
     width: 100%;
     text-align: center;
@@ -56,9 +62,21 @@ a:hover {
 footer {
   background: #f8f8f8;
   text-align: center; }
+  footer #contact {
+    font-size: 1.5em;
+    padding-top: 55px;
+    padding-bottom: 30px; }
+  footer #contact-message {
+    font-size: 1em;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    max-width: 480px; }
+  footer #phone, footer #email {
+    font-size: 1em; }
 
 #b-name {
-  float: left; }
+  float: left;
+  font-size: 1.17em; }
 
 #b-btt {
   float: right; }
@@ -82,18 +100,9 @@ footer {
       list-style: none;
       display: inline-block; } }
   @media (min-width: 768px) {
-    #bottom-nav ul li {
+    #bottom-nav li {
       display: inline-block;
       margin-left: 30px; } }
-
-#contact {
-  padding-top: 55px;
-  padding-bottom: 30px; }
-
-#contact-message {
-  margin: 0 auto;
-  padding-bottom: 40px;
-  max-width: 480px; }
 
 #email {
   padding-bottom: 60px; }
@@ -106,7 +115,8 @@ footer {
 .top-name {
   text-align: center;
   margin-top: 0;
-  padding-top: 20px; }
+  padding-top: 20px;
+  font-size: 2em; }
 
 header {
   background: #f8f8f8; }
@@ -128,7 +138,9 @@ header {
     width: 90%;
     padding: 10px 0;
     text-align: center;
-    margin: 3px 0; }
+    margin: 3px 0;
+    background: #fff;
+    font-size: 1.5em; }
     @media (min-width: 768px) {
       .main-nav h2 {
         background: none; } }
@@ -178,7 +190,8 @@ header {
 #intro-text {
   text-align: center;
   display: block;
-  padding: 30px 10px; }
+  padding: 30px 10px;
+  font-size: 1em; }
   @media (min-width: 768px) {
     #intro-text {
       text-align: left;

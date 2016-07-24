@@ -2,6 +2,15 @@
     text-align: center;
     width: 90%;
     margin: 0 auto;
+    #portfolio {
+      font-size: $fs-section-title;
+    }
+    h3 {
+      font-size: $fs-subsection-title;
+    }
+    p {
+      font-size: $fs-subsection-description;
+    }
     section {
         width: 100%;
         text-align: center;
